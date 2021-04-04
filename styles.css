@@ -1,0 +1,161 @@
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  max-width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: #f2f2f2;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  font-size: 2.1875rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8125rem;
+  line-height: 1.5625rem;
+}
+
+.card {
+  max-width: 50rem;
+  min-height: 12.5rem;
+  margin: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 808px) {
+  .card {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.card__style {
+  padding: 2.5rem;
+}
+
+.card__style h2 {
+  margin: 1.25rem 0rem;
+  text-transform: uppercase;
+}
+
+.card__style p {
+  margin-bottom: 4.375rem;
+}
+
+@media screen and (max-width: 808px) {
+  .card__style p {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.card__style a {
+  background-color: #f2f2f2;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.5625rem;
+  font-size: 0.9375rem;
+  margin: 2.5rem 0rem;
+}
+
+.card__style a:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: transparent;
+  border: 0.125rem solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.card__card1 {
+  background-color: #e38826;
+  border-radius: 0.9375rem 0rem 0rem 0.9375rem;
+}
+
+@media screen and (max-width: 808px) {
+  .card__card1 {
+    border-radius: 0.9375rem 0.9375rem 0rem 0rem;
+  }
+}
+
+.card__card1 a {
+  color: #e38826;
+}
+
+.card__card2 {
+  background-color: #006970;
+}
+
+.card__card2 a {
+  color: #006970;
+}
+
+.card__card3 {
+  background-color: #004241;
+  border-radius: 0rem 0.9375rem 0.9375rem 0rem;
+}
+
+@media screen and (max-width: 808px) {
+  .card__card3 {
+    border-radius: 0rem 0rem 0.9375rem 0.9375rem;
+  }
+}
+
+.card__card3 a {
+  color: #004241;
+}
+
+.attribution {
+  color: black;
+  font-size: 0.875rem;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
