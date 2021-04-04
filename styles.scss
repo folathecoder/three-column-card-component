@@ -5,7 +5,6 @@
     @return #{$remSize}rem;
   }
 
-
 // ============ media-queries
 
 @mixin media-query ($size) {
@@ -19,24 +18,9 @@
           @content;
       }
   } 
-  @else if $size == tablet-mini {
-      @media screen and (max-width: 786px) {
-          @content;
-      }
-  } 
-  @else if $size == large-mobile {
-      @media screen and (max-width: 602px) {
-          @content;
-      }
-  } 
-  @else if $size == mobile {
-      @media screen and (max-width: 550px) {
-          @content;
-      }
-  } 
 }
 
-// =========== color
+// =========== colors
 
 $color-card-one: hsl(31, 77%, 52%);
 $color-card-two: hsl(184, 100%, 22%);
@@ -71,7 +55,7 @@ $weight-light: 400;
     white-space: nowrap !important;
   }
 
-  //============== CSS Reset
+//============== CSS Reset
 
 // Box sizing rules 
 *,
@@ -134,10 +118,7 @@ p {
 
 //===================== Main Styling Begins
 
-// 
-
 .card {
-
   max-width: rem(800);
   min-height: rem(200);
   margin: rem(20);
@@ -204,17 +185,5 @@ p {
     a {
       color: $color-card-three;
     }
-  }
-}
-
-.attribution {
-  position: relative;
-  color: black;
-  font-size: rem(14);
-  text-align: center;
-
-  a:hover {
-    transition: 0.5s;
-    color: $color-card-one
   }
 }

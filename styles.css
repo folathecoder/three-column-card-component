@@ -152,17 +152,4 @@ p {
 .card__card3 a {
   color: #004241;
 }
-
-.attribution {
-  position: relative;
-  color: black;
-  font-size: 0.875rem;
-  text-align: center;
-}
-
-.attribution a:hover {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  color: #e38826;
-}
 /*# sourceMappingURL=styles.css.map */
